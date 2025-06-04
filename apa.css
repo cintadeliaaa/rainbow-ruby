@@ -1,0 +1,151 @@
+
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Comic Sans MS', cursive, sans-serif;
+}
+
+body {
+  background: linear-gradient(to right, #fce4ec, #f8bbd0);
+  color: #333;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #ff80ab;
+  padding: 15px 30px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+header .konten {
+  display: flex;
+  align-items: center;
+  /* margin-right: 10px; */
+}
+
+header .btn img {
+  height: 50px;
+  width: auto;
+  margin-right: 20px;
+  margin-bottom: 10;
+  /* background: none; */
+  /* background-color: transparent; */
+}
+
+.btni{
+    background: none;
+    border: none;
+}
+
+header h1 {
+  font-size: 28px;
+  color: white;
+  margin-left: 20px;
+}
+
+header input[type="text"] {
+  padding: 8px 15px;
+  border: none;
+  border-radius: 20px;
+  font-size: 16px;
+  width: 200px;
+}
+
+.container {
+  padding: 40px 20px;
+}
+
+.hero {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #fff0f5;
+  padding: 30px;
+  border-radius: 20px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+  margin-bottom: 40px;
+}
+
+.hero-text {
+  max-width: 50%;
+}
+
+.hero-text h2 {
+  font-size: 32px;
+  color: #d81b60;
+  margin-bottom: 15px;
+}
+
+.hero-text p {
+  font-size: 16px;
+  margin-bottom: 20px;
+  color: #555;
+}
+
+.hero img {
+  width: 300px;
+  border-radius: 20px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+}
+
+.button {
+  background-color: #f06292;
+  border: none;
+  padding: 10px 20px;
+  color: white;
+  border-radius: 30px;
+  cursor: pointer;
+  font-size: 16px;
+  transition: background-color 0.3s ease;
+}
+
+.button:hover {
+  background-color: #ec407a;
+}
+
+.cards {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+}
+
+.card, .card3 {
+  background-color: white;
+  border-radius: 15px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+  overflow: hidden;
+  width: 280px;
+  transition: transform 0.3s ease;
+}
+
+.card:hover, .card3:hover {
+  transform: translateY(-5px);
+}
+
+.card img, .card3 img {
+  width: 100%;
+  height: 180px;
+  object-fit: cover;
+}
+
+.card-content {
+  padding: 15px;
+}
+
+.card-title {
+  font-size: 18px;
+  font-weight: bold;
+  color: #d81b60;
+  margin-bottom: 10px;
+}
+
+.card3 p {
+  font-size: 14px;
+  color: #444;
+  margin-bottom: 10px;
+}
